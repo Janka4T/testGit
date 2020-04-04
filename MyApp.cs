@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace testGit
 {
-    public partial class Form1 : Form
+    public partial class MyApp : Form
     {
-        public Form1()
+        public MyApp()
         {
             InitializeComponent();
         }
@@ -20,6 +20,11 @@ namespace testGit
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Git Test");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Go back");
         }
     }
 }
