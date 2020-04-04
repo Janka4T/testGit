@@ -26,5 +26,10 @@ namespace testGit
         {
             MessageBox.Show("Go back");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dont touch me");
+        }
     }
 }
